@@ -75,6 +75,6 @@ create table emp_sal (
  salary  int,
  title varchar);
 
-drop table if exists emp_sal;
+
 
 select * from emp_sal;
