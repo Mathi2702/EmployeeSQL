@@ -10,7 +10,7 @@ In this project, first step is to model the data, then create the table and use 
 # Data Modeling
 Look into the CSV file and create an ERD of the tables using QuickDBD.
 
-![](Schema.png)
+![](EmployeeSQL/Schema.png)
 
 # Data Engineering
 Create a table schema for each of the six CSV files in postgres and import each CSV file into its corresponding SQL table.
@@ -44,7 +44,13 @@ For bonus part of the assignment, Import the SQL database into Pandas and  creat
 
 Once the import is completed succefully, Dataframes are created for each table in jupyter notebook. Using pandas merge, "employee_details" table is merged with "salaries" and "title" table to create the plot.
 
-![](Images/Salary_ranges.png)
-![](Images/title_salary.png)
+![](EmployeeSQL/Images/Salary_ranges.png)
+
+
+![](EmployeeSQL/Images/title_salary.png)
+
+
+
+
 
 Note: I have also created table using SQL for the plotting and import the table into the database as "emp_tit_sal.csv" and also in pandas and plotted the histogram and bar chart.
